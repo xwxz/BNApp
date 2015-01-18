@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5395C9181A6A0B1300B9E46B /* BNUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5395C9171A6A0B1300B9E46B /* BNUIKit.h */; };
+		5395C91A1A6A0B1300B9E46B /* BNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395C9191A6A0B1300B9E46B /* BNUIKit.m */; };
+		5395C9371A6A0C3C00B9E46B /* BNUIKitBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395C9361A6A0C3C00B9E46B /* BNUIKitBundle.m */; };
+		5395C9411A6A0D2200B9E46B /* BNUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395C9401A6A0D2200B9E46B /* BNUIView.m */; };
+		5395C94E1A6A0E4400B9E46B /* UITableView+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395C94D1A6A0E4400B9E46B /* UITableView+Register.m */; };
+		5395C9601A6A106400B9E46B /* BNWeatherListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395C95E1A6A106400B9E46B /* BNWeatherListCell.m */; };
+		53A4486D1A6A541A00BE37B8 /* BNWeatherListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5395C95F1A6A106400B9E46B /* BNWeatherListCell.xib */; };
+		53A4487B1A6A619F00BE37B8 /* icon_center_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448731A6A619F00BE37B8 /* icon_center_green@2x.png */; };
+		53A4487C1A6A619F00BE37B8 /* icon_center_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448741A6A619F00BE37B8 /* icon_center_grey@2x.png */; };
+		53A4487D1A6A619F00BE37B8 /* icon_evaluation_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448751A6A619F00BE37B8 /* icon_evaluation_grey@2x.png */; };
+		53A4487E1A6A619F00BE37B8 /* icon_evaluation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448761A6A619F00BE37B8 /* icon_evaluation@2x.png */; };
+		53A4487F1A6A619F00BE37B8 /* icon_info_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448771A6A619F00BE37B8 /* icon_info_green@2x.png */; };
+		53A448801A6A619F00BE37B8 /* icon_info_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448781A6A619F00BE37B8 /* icon_info_grey@2x.png */; };
+		53A448811A6A619F00BE37B8 /* icon_make_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A448791A6A619F00BE37B8 /* icon_make_green@2x.png */; };
+		53A448821A6A619F00BE37B8 /* icon_make_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A4487A1A6A619F00BE37B8 /* icon_make_grey@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5395C9121A6A0B1300B9E46B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5395C9181A6A0B1300B9E46B /* BNUIKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5395C9141A6A0B1300B9E46B /* libBNUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBNUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5395C9171A6A0B1300B9E46B /* BNUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNUIKit.h; sourceTree = "<group>"; };
+		5395C9191A6A0B1300B9E46B /* BNUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNUIKit.m; sourceTree = "<group>"; };
+		5395C9351A6A0C3C00B9E46B /* BNUIKitBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIKitBundle.h; sourceTree = "<group>"; };
+		5395C9361A6A0C3C00B9E46B /* BNUIKitBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNUIKitBundle.m; sourceTree = "<group>"; };
+		5395C93F1A6A0D2200B9E46B /* BNUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIView.h; sourceTree = "<group>"; };
+		5395C9401A6A0D2200B9E46B /* BNUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNUIView.m; sourceTree = "<group>"; };
+		5395C94C1A6A0E4400B9E46B /* UITableView+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Register.h"; sourceTree = "<group>"; };
+		5395C94D1A6A0E4400B9E46B /* UITableView+Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Register.m"; sourceTree = "<group>"; };
+		5395C9501A6A0E8A00B9E46B /* BNUIKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNUIKit.pch; sourceTree = "<group>"; };
+		5395C9561A6A102600B9E46B /* BNUIKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNUIKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5395C9591A6A102600B9E46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5395C95D1A6A106400B9E46B /* BNWeatherListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNWeatherListCell.h; sourceTree = "<group>"; };
+		5395C95E1A6A106400B9E46B /* BNWeatherListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNWeatherListCell.m; sourceTree = "<group>"; };
+		5395C95F1A6A106400B9E46B /* BNWeatherListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNWeatherListCell.xib; sourceTree = "<group>"; };
+		53A448731A6A619F00BE37B8 /* icon_center_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_center_green@2x.png"; sourceTree = "<group>"; };
+		53A448741A6A619F00BE37B8 /* icon_center_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_center_grey@2x.png"; sourceTree = "<group>"; };
+		53A448751A6A619F00BE37B8 /* icon_evaluation_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_evaluation_grey@2x.png"; sourceTree = "<group>"; };
+		53A448761A6A619F00BE37B8 /* icon_evaluation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_evaluation@2x.png"; sourceTree = "<group>"; };
+		53A448771A6A619F00BE37B8 /* icon_info_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_info_green@2x.png"; sourceTree = "<group>"; };
+		53A448781A6A619F00BE37B8 /* icon_info_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_info_grey@2x.png"; sourceTree = "<group>"; };
+		53A448791A6A619F00BE37B8 /* icon_make_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_make_green@2x.png"; sourceTree = "<group>"; };
+		53A4487A1A6A619F00BE37B8 /* icon_make_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_make_grey@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5395C9111A6A0B1300B9E46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5395C9531A6A102600B9E46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5395C90B1A6A0B1300B9E46B = {
+			isa = PBXGroup;
+			children = (
+				5395C9161A6A0B1300B9E46B /* BNUIKit */,
+				5395C9571A6A102600B9E46B /* BNUIKitBundle */,
+				5395C9151A6A0B1300B9E46B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5395C9151A6A0B1300B9E46B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5395C9141A6A0B1300B9E46B /* libBNUIKit.a */,
+				5395C9561A6A102600B9E46B /* BNUIKitBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5395C9161A6A0B1300B9E46B /* BNUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5395C9171A6A0B1300B9E46B /* BNUIKit.h */,
+				5395C9191A6A0B1300B9E46B /* BNUIKit.m */,
+				5395C92E1A6A0BAA00B9E46B /* Category */,
+				5395C92F1A6A0BAA00B9E46B /* Cells */,
+				5395C9301A6A0BAA00B9E46B /* Common */,
+				5395C9311A6A0BAA00B9E46B /* Views */,
+				53A448711A6A611F00BE37B8 /* Images */,
+				5395C94F1A6A0E6E00B9E46B /* Supporting Files */,
+			);
+			path = BNUIKit;
+			sourceTree = "<group>";
+		};
+		5395C92E1A6A0BAA00B9E46B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5395C94C1A6A0E4400B9E46B /* UITableView+Register.h */,
+				5395C94D1A6A0E4400B9E46B /* UITableView+Register.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5395C92F1A6A0BAA00B9E46B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5395C9511A6A0FF800B9E46B /* Weather */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5395C9301A6A0BAA00B9E46B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5395C93F1A6A0D2200B9E46B /* BNUIView.h */,
+				5395C9401A6A0D2200B9E46B /* BNUIView.m */,
+				5395C9351A6A0C3C00B9E46B /* BNUIKitBundle.h */,
+				5395C9361A6A0C3C00B9E46B /* BNUIKitBundle.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5395C9311A6A0BAA00B9E46B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5395C94F1A6A0E6E00B9E46B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5395C9501A6A0E8A00B9E46B /* BNUIKit.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5395C9511A6A0FF800B9E46B /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				5395C95D1A6A106400B9E46B /* BNWeatherListCell.h */,
+				5395C95E1A6A106400B9E46B /* BNWeatherListCell.m */,
+				5395C95F1A6A106400B9E46B /* BNWeatherListCell.xib */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		5395C9571A6A102600B9E46B /* BNUIKitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				5395C9581A6A102600B9E46B /* Supporting Files */,
+			);
+			path = BNUIKitBundle;
+			sourceTree = "<group>";
+		};
+		5395C9581A6A102600B9E46B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5395C9591A6A102600B9E46B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53A448711A6A611F00BE37B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				53A448721A6A613A00BE37B8 /* nav */,
+			);
+			name = Images;
+			path = ../../BNApp/BNApp/Images;
+			sourceTree = "<group>";
+		};
+		53A448721A6A613A00BE37B8 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				53A448731A6A619F00BE37B8 /* icon_center_green@2x.png */,
+				53A448741A6A619F00BE37B8 /* icon_center_grey@2x.png */,
+				53A448751A6A619F00BE37B8 /* icon_evaluation_grey@2x.png */,
+				53A448761A6A619F00BE37B8 /* icon_evaluation@2x.png */,
+				53A448771A6A619F00BE37B8 /* icon_info_green@2x.png */,
+				53A448781A6A619F00BE37B8 /* icon_info_grey@2x.png */,
+				53A448791A6A619F00BE37B8 /* icon_make_green@2x.png */,
+				53A4487A1A6A619F00BE37B8 /* icon_make_grey@2x.png */,
+			);
+			name = nav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5395C9131A6A0B1300B9E46B /* BNUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5395C9281A6A0B1300B9E46B /* Build configuration list for PBXNativeTarget "BNUIKit" */;
+			buildPhases = (
+				5395C9101A6A0B1300B9E46B /* Sources */,
+				5395C9111A6A0B1300B9E46B /* Frameworks */,
+				5395C9121A6A0B1300B9E46B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNUIKit;
+			productName = BNUIKit;
+			productReference = 5395C9141A6A0B1300B9E46B /* libBNUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5395C9551A6A102600B9E46B /* BNUIKitBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5395C95A1A6A102600B9E46B /* Build configuration list for PBXNativeTarget "BNUIKitBundle" */;
+			buildPhases = (
+				5395C9521A6A102600B9E46B /* Sources */,
+				5395C9531A6A102600B9E46B /* Frameworks */,
+				5395C9541A6A102600B9E46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNUIKitBundle;
+			productName = BNUIKitBundle;
+			productReference = 5395C9561A6A102600B9E46B /* BNUIKitBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5395C90C1A6A0B1300B9E46B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wujianqiang;
+				TargetAttributes = {
+					5395C9131A6A0B1300B9E46B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5395C9551A6A102600B9E46B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5395C90F1A6A0B1300B9E46B /* Build configuration list for PBXProject "BNUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5395C90B1A6A0B1300B9E46B;
+			productRefGroup = 5395C9151A6A0B1300B9E46B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5395C9131A6A0B1300B9E46B /* BNUIKit */,
+				5395C9551A6A102600B9E46B /* BNUIKitBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5395C9541A6A102600B9E46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A448801A6A619F00BE37B8 /* icon_info_grey@2x.png in Resources */,
+				53A448821A6A619F00BE37B8 /* icon_make_grey@2x.png in Resources */,
+				53A4486D1A6A541A00BE37B8 /* BNWeatherListCell.xib in Resources */,
+				53A4487E1A6A619F00BE37B8 /* icon_evaluation@2x.png in Resources */,
+				53A4487F1A6A619F00BE37B8 /* icon_info_green@2x.png in Resources */,
+				53A448811A6A619F00BE37B8 /* icon_make_green@2x.png in Resources */,
+				53A4487D1A6A619F00BE37B8 /* icon_evaluation_grey@2x.png in Resources */,
+				53A4487B1A6A619F00BE37B8 /* icon_center_green@2x.png in Resources */,
+				53A4487C1A6A619F00BE37B8 /* icon_center_grey@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5395C9101A6A0B1300B9E46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5395C9371A6A0C3C00B9E46B /* BNUIKitBundle.m in Sources */,
+				5395C9601A6A106400B9E46B /* BNWeatherListCell.m in Sources */,
+				5395C9411A6A0D2200B9E46B /* BNUIView.m in Sources */,
+				5395C94E1A6A0E4400B9E46B /* UITableView+Register.m in Sources */,
+				5395C91A1A6A0B1300B9E46B /* BNUIKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5395C9521A6A102600B9E46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5395C9261A6A0B1300B9E46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5395C9271A6A0B1300B9E46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5395C9291A6A0B1300B9E46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BNUIKit/BNUIKit.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5395C92A1A6A0B1300B9E46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BNUIKit/BNUIKit.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5395C95B1A6A102600B9E46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BNUIKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5395C95C1A6A102600B9E46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = BNUIKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5395C90F1A6A0B1300B9E46B /* Build configuration list for PBXProject "BNUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5395C9261A6A0B1300B9E46B /* Debug */,
+				5395C9271A6A0B1300B9E46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5395C9281A6A0B1300B9E46B /* Build configuration list for PBXNativeTarget "BNUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5395C9291A6A0B1300B9E46B /* Debug */,
+				5395C92A1A6A0B1300B9E46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5395C95A1A6A102600B9E46B /* Build configuration list for PBXNativeTarget "BNUIKitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5395C95B1A6A102600B9E46B /* Debug */,
+				5395C95C1A6A102600B9E46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5395C90C1A6A0B1300B9E46B /* Project object */;
+}
