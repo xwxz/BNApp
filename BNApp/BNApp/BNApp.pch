@@ -1,0 +1,19 @@
+//
+//  BNApp.pch
+//  BNApp
+//
+//  Created by wujianqiang on 15/1/16.
+//  Copyright (c) 2015年 wujianqiang. All rights reserved.
+//
+
+#ifndef BNApp_BNApp_pch
+#define BNApp_BNApp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "BNUIKit.h"
+#import "BNGlobal.h"
+#import "CoreData+MagicalRecord.h"
+#endif
